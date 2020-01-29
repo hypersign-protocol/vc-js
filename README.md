@@ -251,7 +251,13 @@ const result = await vc.verify({presentation, suite});
 To run Mocha tests:
 
 ```
-npm run mocha
+npm run test-node
+```
+
+To run Karma tests:
+
+```
+npm run test-karma
 ```
 
 To run the VC Test Suite:
