@@ -1,5 +1,4 @@
 const chai = require('chai');
-const {expect} = chai;
 const {Ed25519KeyPair} = require('crypto-ld');
 const jsigs = require('jsonld-signatures');
 const jsonld = require('jsonld');
